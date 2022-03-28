@@ -1,0 +1,240 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+html {
+  scroll-behavior: smooth;
+}
+body {
+  padding: 0;
+  margin: 0;
+  min-height: 100vh;
+  font-family: Poppins, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.top-conatiner{
+  background-color: black;
+
+} 
+
+.navbar{
+  padding: 10px 24px 0.3rem;
+    width: 100%;
+    background-color: black;
+    margin-bottom: 10px;
+}
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.4vw;
+  font-weight: bold;
+  padding-left: 15px;
+  border:black 3px ;
+  
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-item:hover {
+  background-color: #f6d13a;
+  border-radius: 50%;
+}
+@media (max-width: 992px){
+  .nav-item:hover {
+    background-color: #252b59;
+    border-radius: 0%;
+  };
+  
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: black;
+}
+.row{
+  padding: 34px;
+  --bs-gutter-x: -2.5rem;
+}
+.welcome{
+  margin-top: 48px;
+}
+.box{
+  padding:3% 7% 0%;
+}
+.heading{
+  line-height: 2;
+  color: white;
+  margin-top: 55px;
+  font-size: 5vw;
+  text-align: center;
+}
+
+.burger {
+    margin-bottom: 6%;
+    width: 57vw;
+    height: 40vw;
+    padding: 16px;
+    margin-left: 30px;
+    margin-top: 0%;
+}
+@media (max-width:1087px) {
+  .heading{
+    font-size: 4vw;
+    margin-top: 42px;
+  }
+}
+@media(max-width:951px) {
+  .burger {
+    width: 58vw;
+    height: 35vw;
+  }
+}
+
+
+
+.carousel-item{
+  text-align: center;
+}
+.carousel-control-next {
+    right: 4px;
+}
+#second-section{
+  margin-top: 9%;
+  padding: 3%;
+}
+.food2 {
+  width: 100%;
+  height: 97%;
+  padding: 20px;
+}
+ .box2{
+   
+    padding: 40px 87px 58px;
+ }
+
+ .heading2{
+   font-size: 2rem;
+ }
+ .para2{
+   color: #272d67;
+ }
+
+ 
+ 
+ @media(max-width:951px){
+  .box2 {
+    padding: 0px 0px 0px;
+    }
+    .food2 {
+      width: 111%;
+      height: 88%;
+      padding-right: 22%;
+    }
+      
+}
+
+
+ #testimonials{
+   background-color: #252b59;
+   padding: 10%;
+   color: black;
+ }
+
+
+ .footer-heading{
+  color: #252b59;
+  font-size: 2.3rem;
+}
+.last-part{
+  padding: 30px;
+  text-align: left;
+}
+@media (max-width:993px)
+{
+  #title .container-fluid , .last-part{
+      text-align: center;
+  }
+
+  
+}
+ul {
+  padding-left: 0rem;
+}
+.social-icon{
+  color: #f6d13a;
+}
+
+
+
+.heading_about{
+  height: 8vw;
+ 
+}
+
+.main{
+  letter-spacing: 1.2vw;
+  font-size: 10vw;
+  color: white;
+  text-align: center;
+  margin-top: 10vw;
+}
+
+
+
+.footer {
+  width: 100%;
+  height: 12rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  bottom: 0;
+  color: white;
+  background-color: rgb(0, 0, 0);
+  padding-right: 6rem;
+  padding-left: 6rem;
+}
+
+.scroll-to-top {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  z-index: 1;
+  border-radius: 50%;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+@media (max-width: 1087px){
+.heading {
+    font-size: 9vw;
+    margin-top: 0px;
+}}
+@media (max-width: 951px){
+.burger {
+    width: 85%;
+    height: 56vw;
+    padding: 0%;
+    padding-left: 0%;
+    margin-left: 0%;
+}}
+.testimonial-text {
+    color: azure;
+    font-size: 1.5rem;
+}

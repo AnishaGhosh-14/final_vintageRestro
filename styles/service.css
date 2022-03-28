@@ -1,0 +1,217 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+html {
+  scroll-behavior: smooth;
+}
+body {
+  padding: 0;
+  margin: 0;
+  min-height: 100vh;
+  font-family: Poppins, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.top-conatiner{
+  background-color: black;
+
+} 
+
+.navbar{
+  padding: 0px 24px 0.3rem;
+    width: 100%;
+    background-color: #f6d13a;
+    margin-bottom: 10px;
+}
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.4vw;
+  font-weight: bold;
+  padding-left: 15px;
+  border:black 3px ;
+  
+}
+.nav-item{
+  padding: 0 18px;
+  
+}
+.navbar-dark .navbar-nav .nav-link{
+  color: black;
+}
+.nav-item:hover {
+    background-color: #252b59;
+    border-radius: 50%;
+  }
+  @media (max-width: 992px){
+    .nav-item:hover {
+      background-color: #f6d13a;
+      border-radius: 0%;
+    };
+    
+  }
+
+.row {
+    --bs-gutter-x: -1.5rem;
+}
+#second-section{
+    text-align: center;
+    margin-top: 4%;
+}
+.heading{
+    padding-left: 13%;
+    padding-right: 13%;
+    margin-top: 12%;
+    margin-bottom: 5%;
+}
+.text-head{
+    width: 59%;
+    margin: auto;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+
+   .food2{
+       width: 75%;
+       height: 50%;
+   }
+  .book-table{
+    width: 113%;
+      height: 3%;
+
+  }
+
+
+.drink {
+        width: 33vw;
+        height: 35vw;
+        margin-left: 14%;
+}
+.welcome{
+    padding: 2.5%;
+}
+
+.heading2{
+    margin-top: 10%;
+}
+.third-section{
+    background-color: #252b59;
+    background-color: #f6d13a;
+}
+.para2{
+    text-align: center;
+    /* margin-bottom: -10vw; */
+    width: 70%;
+    margin: auto;
+}
+  .bike{
+      width: 100%;
+      margin-left: 28%;
+  }
+  .box3{
+    width: 33vw;
+    height: 25vw;
+    margin-left: 5%;
+    margin-top: 4%;
+  }
+  @media (max-width: 987px){
+    .food2 {
+        width: 57vw;
+        height: 42vw;
+        margin-top: 10%;
+}
+.third-section{
+    margin-top: 10%;
+}
+      
+  }
+  .footer-head{
+      margin-top: 4%;
+      margin-bottom: 8%;
+      color: #252b59;
+  }
+  @media (max-width:754px) {
+    .welcome{
+      padding: 2.5%;
+      text-align: center;
+
+  }
+  .footer-head{
+    margin-top: 35%;
+    margin-bottom: 10%;
+    text-align: center;
+    font-size: 80%;
+}
+.para{
+    margin-bottom: 5%;
+}
+p{
+  text-align: center;
+  font-size: 50%;
+}
+.bike {
+  width: 127%;
+  margin-left: 28%;
+  margin-top: 26%;
+  }
+  
+
+.drink {
+    margin-left: 0%;
+}
+}
+  .scroll-to-top {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    z-index: 1;
+    border-radius: 50%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+   
+.para2{
+  opacity: 0;
+}
+.animate__bounceIn{
+  opacity: 1;
+}
+.box3{
+    margin-top: 4%
+}
+.para3{
+    margin-bottom: 9%;
+}
+.color{
+    color: #252b59;
+    margin: 1%;
+    margin-bottom: 41%;
+}
+.text-head2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+}
+.heading4 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    color: #252b59;
+}
